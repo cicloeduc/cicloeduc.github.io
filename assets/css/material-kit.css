@@ -9180,7 +9180,7 @@ button:focus {
 .btn.btn-success:hover {
   color: #fff;
   background-color: #264f56;
-  border-color: #264f56;
+  border-color: #264f55;
 }
 
 .btn.btn-success:active,
