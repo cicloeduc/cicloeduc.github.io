@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/logo.ico">
+  <link rel="icon" type="image/png" href="./assets/img/logo.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Portal Cicloeduc
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
+  <link href="assets/css/estilo.css" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="assets/demo/demo.css" rel="stylesheet" />
+  <!-- CSS Animações -->
+  <link href="assets/css/animate.css" rel="stylesheet" />
+  <link href="assets/css/animate.min.css" rel="stylesheet" />
+
+</head>
+
+<body class="index-page sidebar-collapse">
+  <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg section-home" color-on-scroll="100" id="sectionsNav">
+    <div class="container">
+      <div class="navbar-translate">
+       <div class="logo">
+        <img width="35px" height="35px" class="img-responsive" src="assets/img/logo.png" alt="Creative Tim Logo">
+        <a class="navbar-brand" href="#">
+        CICLOEDUC </a>
+      </div>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+            <i class="material-icons">apps</i> Menu
+          </a>
+          <div class="dropdown-menu dropdown-with-icons">
+            <a href="javascript:void(0)" class="dropdown-item" onclick="scrollToCall()">
+              <i class="material-icons">layers</i> Sobre o CALL
+            </a>
+            <a href="javascript:void(0)" class="dropdown-item" onclick="scrollToTime()">
+              <i class="material-icons">group</i> Nossos Professores
+            </a>
+            <a href="javascript:void(0)" class="dropdown-item" onclick="scrollToTestemunhos()">
+              <i class="material-icons">question_answer</i> O que eles pensam?
+            </a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)" onclick="scrollToCicloeduc()">
+            <i class="material-icons">autorenew</i> O Cicloeduc
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="javascript:void(0)"data-original-title="Verifique aqui o plano ideal." onclick="scrollToPlano()">
+            <i class="material-icons">school</i> Torne-se um aluno 
+          </a>
+        </li>|
+        <li class="nav-item">
+          <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="login.html" data-original-title="Fazer login no Sistema">
+            LOGIN
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="page-header header-filter clear-filter purple-filter" data-parallax="true" style="background-image: url('./assets/img/bg2.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 ml-auto mr-auto">
+        <div class="brand">
+          <img width="250px" height="250px" class="img-responsive zoomIn animated" src="assets/img/logo.png" alt="Creative Tim Logo"><br/>
+          <h1 class="pulse animated">CICLOEDUC</h1>
+          <h3 class="bounce animated">O ENEM garante sua vaga na universidade e o CICLOEDUC prepara VOCÊ!</h3>
+           <br/><br/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="main main-raised section-cicloeduc" id="section-cicloeduc">
+  <div class="section section-basic">
+    <div class="container text-center">
+      <br/><br/>
+      <h2 class="title bounceIn animated">Conheça o Cicloeduc</h2><br/>
+      
+      <div class="row">
+        <div class="col-md-12 ml-auto mr-auto fadeInLeft animated delay-2s duration-3s">
+          <h5>O Cicloeduc é uma plataforma que possui o objetivo de melhorar efetivamente o desempenho e o aprendizado dos alunos, focando exclusivamente na área de Linguagens códigos e suas tecnologias. </h5>
+          <h5>Elaborado e proposto por um grupo de especialistas do Centro de Aperfeiçoamento de Língua e Linguagem - CALL, em que a partir das suas experiências lançaram o questionamento: como fazer com que os alunos possam obter um desempenho de excelência na prova de Linguagens e suas tecnologias no ENEM e em Vestibulares?  A busca por essa resposta possibilitou a criação do <b>Cicloeduc</b>.</h5>
+        </div>
+      </div>
+      <div class="features">
+        <div class="row">
+          <div class="col-md-3 bounceInLeft animated">
+            <div class="info">
+              <div class="icon icon-info">
+                <i class="material-icons">timer</i>
+              </div>
+              <h4 class="info-title">Tempo</h4>
+              <h5>Para os melhores resultados, dedicação, preparação e tempo são essenciais. Com o CICLOEDUC você pode manter sua rotina e continuar estudando!</h5>
+            </div>
+          </div>
+          <div class="col-md-3 bounceInDown animated">
+            <div class="info">
+              <div class="icon icon-success">
+                <i class="material-icons">autorenew</i>
+              </div>
+              <h4 class="info-title">Ciclos de Estudo</h4>
+              <h5>Estude por Ciclos. Em cada Ciclo, você poderá explorar e finalizar 3 módulos distintos. Ao finalizar os módulos um ciclo será fechado e outro iniciado.</h5>
+            </div>
+          </div>
+
+          <div class="col-md-3 bounceInUp animated">
+            <div class="info">
+              <div class="icon icon-danger">
+                <i class="material-icons">spellcheck</i>
+              </div>
+              <h4 class="info-title">Simulados</h4>
+              <h5>Na plataforma você poderá realizar simulados focados nas principais habilidades, disciplinas  e grau de dificuldade cobradas no ENEM. Abordando excluivamente a área de Linguagens, Códigos e suas Tecnologias.</h5>
+            </div>
+          </div>
+          <div class="col-md-3 bounceInRight animated">
+            <div class="info">
+              <div class="icon icon-warning">
+                <i class="material-icons">find_in_page</i>
+              </div>
+              <h4 class="info-title">Material de Apoio</h4>
+              <h5> Tenha o auxílio de material de apoio em vídeo, áudio e impressos. Todo elaborado e pensado com carinho por professores especializados do <a href="http://callnatal.com.br/sobre-o-call/" target="_blank">CALL.</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br/><br/>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="section section-testimonial section-call" id="section-call"></div>
+
+
+<div class="main main-raised">
+  <div class="section section-basic">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="title">
+            <h2 class="title text-center">O Call</h2>
+          </div>
+          <h5 class="text-justify">Desde 1999, o Call (Centro de Aperfeiçoamento de Língua e Linguagem) – uma escola administrada pelos professores Rosemberg Ramalho e Marco Aurélio – prepara estudantes e profissionais para a aquisição e domínio linguístico, a partir de um projeto pedagógico transdisciplinar. O grupo é responsável por desenvolver, em Natal, um curso completo e pioneiro de Língua portuguesa, com três ciclos de aprendizagem, do Ensino Fundamental ao Pré-Vestibular.</h5>
+          <h5 class="text-justify">Conheçao o <a href="http://callnatal.com.br/sobre-o-call/" target="_blank">CALL.</a></h5>.
+        </div>
+
+        <div class="col-md-8 mr-auto ml-auto">
+          <br/><br/>
+          <!-- Carousel Card -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+                <li data-target="#myCarousel" data-slide-to="8"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="./assets/img/call/call1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/call/call2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/call/call3.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/call/call3.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/call/call4.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/call/call5.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/call/call6.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/call/call7.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/call/call8.jpg" alt="Second slide">
+                </div>
+                 <div class="carousel-item">
+                  <img class="d-block w-100" src="./assets/img/call/call9.jpg" alt="Second slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="" role="button" data-slide="prev">
+                <i class="material-icons">keyboard_arrow_left</i>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a class="carousel-control-next" href="" role="button" data-slide="next">
+                <i class="material-icons">keyboard_arrow_right</i>
+                <span class="sr-only">Próximo</span>
+              </a>
+            </div>
+          <!-- End Carousel Card -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="section section-testimonial section-time" id="section-time"></div>
+
+<div class="main main-raised">
+  <div class="section section-basic text-center">
+   <div class="container">
+    <h2 class="title">Nossos Professores</h2><br/>
+    <div class="team">
+      <div class="row">
+         <div class="col-md-3">
+          <div class="team-player">
+            <div class="card card-plain">
+              <div class="col-md-6 ml-auto mr-auto">
+                <img src="assets/img/faces/lucena.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+              </div>
+              <h4 class="card-title">Júnior Lucena
+                <br>
+                <small class="card-description text-muted">Professor de Sistenas</small>
+              </h4>
+              <div class="card-body">
+               Consultor Tecnológico pela FUNCERN - SEBRAE. Professor Mediador pela UFRN. Analista de Sistemas pelo IFRN. Mestre em Inovação pela UFRN. CEO na G4SYSTEMS. Amante de Ciência, Tecnologia e Inovação.  
+              <div class="card-footer justify-content-center">
+                <a href="https://www.linkedin.com/in/lucenaaa/" target="_blank" class="btn btn-link btn-just-icon"><i class="fa fa-linkedin"></i></a>                
+                <a href="http://lattes.cnpq.br/0023671851401189" target="_blank" class="btn btn-link btn-just-icon"><i class="fa fa fa-graduation-cap"></i></a>
+                <a href="#" class="btn btn-link btn-just-icon" target="_blank" ><i class="fa fa-youtube-play"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+         <div class="col-md-3">
+          <div class="team-player">
+            <div class="card card-plain">
+              <div class="col-md-6 ml-auto mr-auto">
+                <img src="assets/img/faces/lucena.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+              </div>
+              <h4 class="card-title">Júnior Lucena
+                <br>
+                <small class="card-description text-muted">Professor de Sistenas</small>
+              </h4>
+              <div class="card-body">
+               Consultor Tecnológico pela FUNCERN - SEBRAE. Professor Mediador pela UFRN. Analista de Sistemas pelo IFRN. Mestre em Inovação pela UFRN. CEO na G4SYSTEMS. Amante de Ciência, Tecnologia e Inovação.  
+              <div class="card-footer justify-content-center">
+                <a href="https://www.linkedin.com/in/lucenaaa/" target="_blank" class="btn btn-link btn-just-icon"><i class="fa fa-linkedin"></i></a>                
+                <a href="http://lattes.cnpq.br/0023671851401189" target="_blank" class="btn btn-link btn-just-icon"><i class="fa fa fa-graduation-cap"></i></a>
+                <a href="#" class="btn btn-link btn-just-icon" target="_blank"><i class="fa fa-youtube-play"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+         <div class="col-md-3">
+          <div class="team-player">
+            <div class="card card-plain">
+              <div class="col-md-6 ml-auto mr-auto">
+                <img src="assets/img/faces/lucena.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+              </div>
+              <h4 class="card-title">Júnior Lucena
+                <br>
+                <small class="card-description text-muted">Professor de Sistenas</small>
+              </h4>
+              <div class="card-body">
+               Consultor Tecnológico pela FUNCERN - SEBRAE. Professor Mediador pela UFRN. Analista de Sistemas pelo IFRN. Mestre em Inovação pela UFRN. CEO na G4SYSTEMS. Amante de Ciência, Tecnologia e Inovação.  
+              <div class="card-footer justify-content-center">
+                <a href="https://www.linkedin.com/in/lucenaaa/" target="_blank" class="btn btn-link btn-just-icon"><i class="fa fa-linkedin"></i></a>                
+                <a href="http://lattes.cnpq.br/0023671851401189" target="_blank"  class="btn btn-link btn-just-icon"><i class="fa fa fa-graduation-cap"></i></a>
+                <a href="#" target="_blank"  class="btn btn-link btn-just-icon"><i class="fa fa-youtube-play"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col-md-3">
+          <div class="team-player">
+            <div class="card card-plain">
+              <div class="col-md-6 ml-auto mr-auto">
+                <img src="assets/img/faces/lucena.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+              </div>
+              <h4 class="card-title">Júnior Lucena
+                <br>
+                <small class="card-description text-muted">Professor de Sistenas</small>
+              </h4>
+              <div class="card-body">
+               Consultor Tecnológico pela FUNCERN - SEBRAE. Professor Mediador pela UFRN. Analista de Sistemas pelo IFRN. Mestre em Inovação pela UFRN. CEO na G4SYSTEMS. Amante de Ciência, Tecnologia e Inovação.  
+              <div class="card-footer justify-content-center">
+                <a href="https://www.linkedin.com/in/lucenaaa/" target="_blank" class="btn btn-link btn-just-icon"><i class="fa fa-linkedin"></i></a>                
+                <a href="http://lattes.cnpq.br/0023671851401189" target="_blank" class="btn btn-link btn-just-icon"><i class="fa fa fa-graduation-cap"></i></a>
+                <a href="#" target="_blank" class="btn btn-link btn-just-icon"><i class="fa fa-youtube-play"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="section section-testimonial section-plano" id="section-plano"></div>
+
+
+<div class="main main-raised">
+  <div class="section section-basic">
+
+    <div class="container">
+      <h2 class="title text-center">Comece a Estudar Agora!</h2> 
+
+      <h4 class="text-center">Rumo a nota máxima!</h4>
+
+      <br/><br/>
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-4 ml-auto mr-auto">
+          <div class="card card-login">
+            <form class="form" method="" action="">
+              <div class="card-header card-header-success text-center">
+                <h4 class="card-title">Plano I</h4>
+              </div>
+              <div class="card-body text-center">
+
+                <div class="text-center">
+                  <h3>Alunos <b>CALL</b></h3>
+                </div>
+
+                <br/>
+
+                <p class="description text-center">Simulado por Habilidades no <br/><b class="text-success">Módulo Básico.</b></p>
+                <p class="description text-center">Simulado por Disciplinas no 
+                  <br/><b class="text-warning ">Módulo Intermediário.</b></p>
+                  <p class="description text-center">Simulado por Níveis de dificuldade 
+                    <br/><b class="text-danger">Modulo Avançado.</b></p>
+
+                    <br/> 
+
+                    <h3 class="card-title pricing-card-title text-center"> R$ 15,00 
+                      <small class="text-muted">/ no primeiro mês.</small>
+                    </h3>
+                    <h5 class="text-center">Após, R$ 20,00 
+                      <small class="text-muted">/ mês.</small>
+                    </h5>
+
+                    <br/>
+
+                  </div>
+                  <div class="footer text-center">
+                    <div class="ml-auto mr-auto text-center">
+                      <button class="btn btn-block btn-success btn-raised">
+                        Comece a estudar agora
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 ml-auto mr-auto">
+              <div class="card card-login">
+                <form class="form" method="" action="">
+                  <div class="card-header card-header-success text-center">
+                    <h4 class="card-title">Plano II</h4>
+                  </div>
+                  <div class="card-body text-center">
+
+                    <div class="text-center">
+                      <h3>Futuro Aluno <b>CALL</b></h3>
+                    </div>
+
+                    <br/>
+
+                    <p class="description text-center">Simulado por Habilidades no <br/><b class="text-success">Módulo Básico.</b></p>
+                    <p class="description text-center">Simulado por Disciplinas no 
+                      <br/><b class="text-warning ">Módulo Intermediário.</b></p>
+                      <p class="description text-center">Simulado por Níveis de dificuldade 
+                        <br/><b class="text-danger">Modulo Avançado.</b></p>
+
+                        <br/> 
+
+                        <h3 class="card-title pricing-card-title text-center"> R$ 17,00 
+                          <small class="text-muted">/ no primeiro mês.</small>
+                        </h3>
+                        <h5 class="text-center">Após, R$ 20,00 
+                          <small class="text-muted">/ mês.</small>
+                        </h5>
+
+                        <br/>
+
+                      </div>
+                      <div class="footer text-center">
+                        <div class="ml-auto mr-auto text-center">
+                          <button class="btn btn-success btn-block btn-raised">
+                            Comece a estudar agora
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="section section-testimonial section-testemunhos" id="section-testemunhos"></div>
+
+
+        <div class="main main-raised " >
+          <div class="section section-basic">
+
+            <div class="container">
+
+             <h2 class="title text-center">O que pensam nossos <b>alunos e professores</b> ?</h2>
+             <br/>
+             <br/>
+
+             <div class="row">
+              <div class="col-sm-12">
+
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>   
+                  <!-- Wrapper for carousel items -->
+                  <div class="carousel-inner">
+                    <div class="item carousel-item active">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="testimonial-wrapper">
+                            <div class="testimonial">
+                              <h5 class="text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra."
+                              </h5>
+                            </div>
+                            <div class="media">
+                              <div class="media-left d-flex mr-3">
+                                <img src="assets/img/faces/kendall.jpg" alt="">                   
+                              </div>
+                              <div class="media-body">
+                                <div class="overview">
+                                  <div class="name"><b>Paula Wilson</b></div>
+                                  <div class="details">Media Analyst / SkyNet</div>
+                                </div>                    
+                              </div>
+                            </div>
+                          </div>                
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="testimonial-wrapper">
+                            <div class="testimonial">
+                             <h5 class="text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra."
+                             </h5>
+                           </div>
+                           <div class="media">
+                            <div class="media-left d-flex mr-3">
+                              <img src="assets/img/faces/kendall.jpg" alt="">                   
+                            </div>
+                            <div class="media-body">
+                              <div class="overview">
+                                <div class="name"><b>Antonio Moreno</b></div>
+                                <div class="details">Web Developer / SoftBee</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>                
+                      </div>
+                    </div>      
+                  </div>
+                  <div class="item carousel-item">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="testimonial-wrapper">
+                          <div class="testimonial">
+                           <h5 class="text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra."
+                           </h5>
+                         </div>
+                         <div class="media">
+                          <div class="media-left d-flex mr-3">
+                            <img src="assets/img/faces/kendall.jpg" alt="">                   
+                          </div>
+                          <div class="media-body">
+                            <div class="overview">
+                              <div class="name"><b>Michael Holz</b></div>
+                              <div class="details">Web Developer / DevCorp</div>                      
+                            </div>
+                          </div>
+                        </div>
+                      </div>                
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="testimonial-wrapper">
+                        <div class="testimonial"> 
+                          <h5 class="text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra."
+                          </h5>
+                        </div>
+                        <div class="media">
+                          <div class="media-left d-flex mr-3">
+                            <img src="assets/img/faces/kendall.jpg" alt="">                   
+                          </div>
+                          <div class="media-body">
+                            <div class="overview">
+                              <div class="name"><b>Mary Saveley</b></div>
+                              <div class="details">Graphic Designer / MarsMedia</div>
+                            </div>                    
+                          </div>
+                        </div>
+                      </div>                
+                    </div>
+                  </div>      
+                </div>
+                <div class="item carousel-item">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="testimonial-wrapper">
+                        <div class="testimonial">
+                         <h5 class="text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra."
+                         </h5>
+                       </div>
+                       <div class="media">
+                        <div class="media-left d-flex mr-3">
+                          <img src="assets/img/faces/kendall.jpg" alt="">                   
+                        </div>
+                        <div class="media-body">
+                          <div class="overview">
+                            <div class="name"><b>Martin Sommer</b></div>
+                            <div class="details">SEO Analyst / RealSearch</div>
+                          </div>                    
+                        </div>
+                      </div>
+                    </div>                
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="testimonial-wrapper">
+                      <div class="testimonial">
+                       <h5 class="text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante, commodo iacul viverra."
+                       </h5>
+                     </div>
+                     <div class="media">
+                      <div class="media-left d-flex mr-3">
+                        <img src="assets/img/faces/kendall.jpg" alt="">                   
+                      </div>
+                      <div class="media-body">
+                        <div class="overview">
+                          <div class="name"><b>John Williams</b></div>
+                          <div class="details">Web Designer / UniqueDesign</div>
+                        </div>                    
+                      </div>
+                    </div>
+                  </div>                
+                </div>
+              </div>      
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<div class="section section-testimonial"></div>
+<!--
+
+<div class="section section-testimonial">
+
+</div>
+
+<div class="main main-raised">
+  <div class="section section-basic">
+    <div class="container">
+
+     <h2 class="title text-center">Título</h2>
+
+   </div>
+ </div>
+</div> -->
+
+
+<footer class="footer" data-background-color="black">
+  <div class="container">
+    <nav class="float-left">
+      <ul>
+        <li>
+          <a href="#">
+            <img width="55px" height="55x" class="img-responsive" src="assets/img/logo-call.png" alt="Logo CALL">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img width="90px" height="55x" class="img-responsive" src="assets/img/logo CE.png" alt="Logo Cicloeduc">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img width="90px" height="55x" class="img-responsive" src="assets/img/educ.png" alt="Logo Cicloeduc">
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <br/>
+    <div class="copyright float-right">
+      Copyright &copy;
+      <script>
+        document.write(new Date().getFullYear())
+      </script>, <a href="#">Cicloeduc</a>. Todos os direitos reservados.
+      Por <a href="#" target="_blank">G4Systems</a>.
+    </div>
+  </div>
+</footer>
+<!--   Core JS Files   -->
+<script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+<script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+<script src="./assets/js/plugins/moment.min.js"></script>
+<!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+<script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Google Maps Plugin    -->
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+<!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+<script src="./assets/js/material-kit.js?v=2.0.5" type="text/javascript"></script>
+<script>
+
+
+  $(document).ready(function() {
+      //init DateTimePickers
+      materialKit.initFormExtendedDatetimepickers();
+
+      // Sliders Init
+      materialKit.initSliders();
+    });
+
+  function scrollToHome() {
+    if ($('.section-home').length != 0) {
+      $("html, body").animate({
+        scrollTop: $('.section-home').offset().top
+      }, 1000);
+    }
+  }
+
+  function scrollToCicloeduc() {
+    if ($('.section-cicloeduc').length != 0) {
+      $("html, body").animate({
+        scrollTop: $('.section-cicloeduc').offset().top
+      }, 1000);
+    }
+  }
+
+  function scrollToCall() {
+    if ($('.section-call').length != 0) {
+      $("html, body").animate({
+        scrollTop: $('.section-call').offset().top
+      }, 1000);
+    }
+  }
+
+  function scrollToTime() {
+    if ($('.section-time').length != 0) {
+      $("html, body").animate({
+        scrollTop: $('.section-time').offset().top
+      }, 1000);
+    }
+  }
+
+  function scrollToPlano() {
+    if ($('.section-plano').length != 0) {
+      $("html, body").animate({
+        scrollTop: $('.section-plano').offset().top
+      }, 1000);
+    }
+  }
+
+  function scrollToTestemunhos() {
+    if ($('.section-testemunhos').length != 0) {
+      $("html, body").animate({
+        scrollTop: $('.section-testemunhos').offset().top
+      }, 1000);
+    }
+  }
+
+</script>
+</body>
+
+</html>
