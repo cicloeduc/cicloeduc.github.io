@@ -9179,8 +9179,8 @@ button:focus {
 .btn.btn-success.focus,
 .btn.btn-success:hover {
   color: #fff;
-  background-color: #47a44b;
-  border-color: #39843c;
+  background-color: #264f56;
+  border-color: #264f56;
 }
 
 .btn.btn-success:active,
@@ -13996,7 +13996,7 @@ textarea {
 }
 
 .navbar .navbar-toggler .navbar-toggler-icon {
-  background-color: #555;
+  background-color: #ffffff;
 }
 
 .navbar.fixed-top {
@@ -16616,9 +16616,9 @@ footer .pull-center {
 }
 
 .card-login .social-line {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   text-align: center;
-  padding: 0;
+  /* padding: 0; */
 }
 
 .card-login .social-line .btn {

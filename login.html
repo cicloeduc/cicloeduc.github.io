@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   <!-- CSS Files -->
   <link href="assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
-   <link href="assets/css/estilo.css" rel="stylesheet" />
+  <link href="assets/css/estilo.css" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="assets/demo/demo.css" rel="stylesheet" />
   <!-- CSS Animações -->
@@ -61,12 +61,12 @@
 </nav>
 
 
-<div class="page-header header-filter clear-filter purple-filter" data-parallax="true" style="background-image: url('./assets/img/bg2.jpg');">
+<div class="page-header header-filter" style="background-image: url('./assets/img/bg2.jpg'); background-size: cover; background-position: top center;">
+
   <div class="container">
     <div class="row">
 
-
-      <div class="col-lg-5 col-md-8 ml-auto mr-auto bounceInDown animated delay-1s duration-3s">
+      <div class="col-lg-4 col-md-4 ml-auto mr-auto bounceInDown animated delay-1s duration-3s">
         <div class="card card-login">
           <form class="form" method="" action="">
             <div class="card-header card-header-success text-center">
@@ -80,11 +80,7 @@
                 </a>
               </div>
             </div>
-            <div class="description text-center">
-              <h4>Atualizando <b>conhecimento</b>!</h4>
-            </div>
             <div class="card-body">
-
               <div class="input-group">
                 <div class="input-group-prepend">
                   <span class="input-group-text">
@@ -114,25 +110,51 @@
               </div>
             </div>
             <div class="input-group text-center">
-              <div class="margim col-xs-12 ml-auto mr-auto">
+              <div class="col-xs-12 ml-auto mr-auto">
                 <a href="" class="btn btn-success btn-block">Realizar Login
-                  <div class="ripple-container"></div>
                 </a>
               </div>
             </div>
           </form>
-          <br/>
           <small class="text-center"><a href="#">Esqueceu o seu usuário ou senha?</a></small>
-          <br/>
-          <p class="text-center"><small> Se você não possui registro, realize-o. Senão, entre normalmente!</small></p>
         </div>
       </div>
-
-
     </div>
   </div>
-</div>
 
+    <footer class="footer">
+      <div class="container">
+        <nav class="float-left">
+          <ul>
+            <li>
+              <a href="#">
+                <img width="55px" height="55x" class="img-responsive" src="assets/img/logo-call.png" alt="Logo CALL">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img width="90px" height="55x" class="img-responsive" src="assets/img/logo CE.png" alt="Logo Cicloeduc">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img width="90px" height="55x" class="img-responsive" src="assets/img/educ.png" alt="Logo Cicloeduc">
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <br/>
+        <div class="copyright float-right">
+          Copyright &copy;
+          <script>
+            document.write(new Date().getFullYear())
+          </script>, <a href="#">Cicloeduc</a>. Todos os direitos reservados.
+          Por <a href="#" target="_blank">G4Systems</a>.
+        </div>
+      </div>
+    </footer>
+
+</div>
 
 <!--
 
@@ -150,37 +172,6 @@
  </div>
 </div> -->
 
-<footer class="footer" data-background-color="black">
-  <div class="container">
-    <nav class="float-left">
-      <ul>
-        <li>
-          <a href="#">
-            <img width="55px" height="55x" class="img-responsive" src="assets/img/logo-call.png" alt="Logo CALL">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img width="90px" height="55x" class="img-responsive" src="assets/img/logo CE.png" alt="Logo Cicloeduc">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img width="90px" height="55x" class="img-responsive" src="assets/img/educ.png" alt="Logo Cicloeduc">
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <br/>
-    <div class="copyright float-right">
-      Copyright &copy;
-      <script>
-        document.write(new Date().getFullYear())
-      </script>, <a href="#">Cicloeduc</a>. Todos os direitos reservados.
-      Por <a href="#" target="_blank">G4Systems</a>.
-    </div>
-  </div>
-</footer>
 
 <!--   Core JS Files   -->
 <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
